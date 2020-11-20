@@ -2,6 +2,10 @@ package com.cryptography;
 
 import com.cryptography.main.CaesarCipher;
 
+/**
+ * @brief class for breaking the Caesar Cipher technique
+ * @author [Rachit Bhalla](https://github.com/rachitbhalla)
+ */
 public class CaesarBreaker {
 
     private static final String ALPHABET = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
