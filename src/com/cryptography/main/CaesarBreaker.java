@@ -1,4 +1,4 @@
-package com.cryptography;
+package com.cryptography.main;
 
 // import the CaesarCipher class from Caesar Cipher repository (https://github.com/rachitbhalla/Caesar-Cipher)
 import com.cryptography.main.CaesarCipher;
@@ -16,11 +16,11 @@ public class CaesarBreaker {
      * @param text
      * @return array of count of each letter in the text
      */
-    private static int[] countLetters(String text){
+    private static int[] countLetters(String text) {
         int[] letterCounts = new int[26];
-        for(int i=0; i<text.length(); i++){
+        for (int i = 0; i < text.length(); i++) {
             char ch = text.charAt(i);
-            if(Character.isAlphabetic(ch)){
+            if (Character.isAlphabetic(ch)) {
                 int index = ALPHABET.indexOf(Character.toUpperCase(ch));
                 letterCounts[index] += 1;
             }
@@ -33,10 +33,10 @@ public class CaesarBreaker {
      * @param values array of integer values
      * @return index of maximum value
      */
-    private static int indexOfMax(int[] values){
+    private static int indexOfMax(int[] values) {
         int indexOfMaxValue = 0;
-        for(int i=1; i<values.length; i++){
-            if(values[i]>values[indexOfMaxValue]){
+        for (int i = 1; i < values.length; i++) {
+            if (values[i] > values[indexOfMaxValue]) {
                 indexOfMaxValue = i;
             }
         }
@@ -48,7 +48,7 @@ public class CaesarBreaker {
      * @param cipherText the encrypted plaintext
      * @return plaintext
      */
-    public static String breakCipher(String cipherText){
+    public static String breakCipher(String cipherText) {
         int indexOfMostFrequentLetter = indexOfMax(countLetters(cipherText));
         char mostFrequentEnglishLetter = 'E';
         int key = indexOfMostFrequentLetter - ALPHABET.indexOf(mostFrequentEnglishLetter);

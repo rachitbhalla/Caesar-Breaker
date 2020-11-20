@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6c78a64-62ba-41c5-b4b4-1e0a1d1b6467" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cryptography/CaesarBreaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cryptography/CaesarBreaker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cryptography/CaesarBreakerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cryptography/CaesarBreakerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cryptography/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cryptography/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Caesar Breaker/com/cryptography/CaesarBreaker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Caesar Breaker/com/cryptography/CaesarBreakerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Caesar Breaker/com/cryptography/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cryptography/CaesarBreaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cryptography/main/CaesarBreaker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cryptography/CaesarBreakerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cryptography/test/CaesarBreakerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cryptography/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cryptography/main/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,9 +46,15 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.cryptography.test" />
+      <recent name="com.cryptography.main" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.cryptography.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.cryptography.main.Main" />
       <module name="Caesar Breaker" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
@@ -69,7 +79,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605632774819</updated>
-      <workItem from="1605632777901" duration="10774000" />
+      <workItem from="1605632777901" duration="11550000" />
     </task>
     <servers />
   </component>
@@ -77,26 +87,30 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="443" y="232" width="394" height="220" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1605861708906">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="443" y="232" width="394" height="220" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680@0.0.1280.680" timestamp="1605861708906" />
     <state x="421" y="45" key="FileChooserDialogImpl" timestamp="1605857661531">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="45" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1605857661531" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1605860758880">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1605861894892">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1605860758880" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1605860758879">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1605861894892" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1605861894892">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1605860758879" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1605860758879">
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1605861894892" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1605861894892">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1605860758879" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1605860758880">
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1605861894892" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1605861894892">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1605860758879" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1605861894892" />
     <state x="121" y="0" key="SettingsEditor" timestamp="1605857666356">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

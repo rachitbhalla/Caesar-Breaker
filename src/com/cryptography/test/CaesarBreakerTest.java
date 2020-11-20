@@ -1,4 +1,6 @@
-package com.cryptography;
+package com.cryptography.test;
+
+import com.cryptography.main.CaesarBreaker;
 
 /**
  * @brief class for testing CaesarBreaker class

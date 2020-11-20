@@ -1,4 +1,6 @@
-package com.cryptography;
+package com.cryptography.main;
+
+import com.cryptography.test.CaesarBreakerTest;
 
 import java.util.Scanner;
 
